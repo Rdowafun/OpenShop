@@ -1,0 +1,80 @@
+@media(prefers-color-scheme: light) {
+
+    body,
+    .top-search {
+        background-color: #fff;
+    }
+
+    .nav-logo1 {
+        z-index: 1;
+    }
+
+    .con-img1 {
+        z-index: 1;
+    }
+    .miniw1{
+        z-index: 1;
+    }
+
+    .top-form button,
+    .c-btn {
+        color: FFFFFF;
+        background-color: #313131;
+    }
+
+    .navbar-list__link,
+    h1,
+    .title,
+    .card-text,
+    .console-block-left h2,
+    .xbox-text h2,
+    .xbox-text p,.left-block-text,.vr-text {
+        color: #313131;
+    }
+
+    .card-product:hover i {
+        color: #313131;
+    }
+
+    .buy {
+        color: transparent;
+        background-color: transparent;
+    }
+
+    .card-product:hover .buy {
+        color: #fff;
+        border: 1px solid #313131;
+        background: #313131;
+    }
+
+    .carousel-ind [data-bs-target] {
+        background-color: #ABABAB;
+    }
+
+    .carousel-ind .active {
+        background-color: #313131;
+    }
+    .actlink a{
+        color:#000 !important;
+        border-right: 2px solid #000 !important;
+    }
+    .page-item:last-child a{
+        color:#000;
+    }
+    .card-product:hover{
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    }
+    .d-list li,.d-list2 li,.d-menu ul{
+        background-color: #fff !important;
+    }
+    .dr-item{
+        color:#313131;
+    }
+    .dr-item:hover{
+        color:#000;
+        background-color: #f7e9e982;
+    }
+    .show a:hover{
+        background-color: #f7e9e982;
+    }
+}
