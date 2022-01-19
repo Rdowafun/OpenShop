@@ -4,7 +4,25 @@
     .top-search {
         background-color: #fff;
     }
+    .navbar-top a{
+        color:#fff;
+    }
+    .navbar-top a{
+        color:#fff;
+    }
+    .navbar-top .dr-item {
+        color: #fff;
+        transition: .5s;
 
+    }
+.navbar-top .d-list li, .navbar-top .d-list2 li, .navbar-top .d-menu ul{
+    background-color: #000 !important;
+}
+    .navbar-top > .dr-item:hover {
+        color: #fff;
+        text-decoration: underline;
+        background-color: #1e1d1d;
+    }
     .nav-logo1 {
         z-index: 1;
     }

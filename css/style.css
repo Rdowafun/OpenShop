@@ -20,11 +20,13 @@ body,
 
 .nav-logo1 {
     position: absolute !important;
-    left: 1%;
+    left: 0;
     z-index: -1;
 
 }
-
+.logo-img{
+    position: relative;
+}
 .navbar-top {
     display: none;
 }
