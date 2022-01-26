@@ -45,7 +45,8 @@
         flex-direction: column;
         gap: 0;
     }
-    .bs-input{
+
+    .bs-input {
         text-align: centerg;
     }
 
@@ -158,9 +159,11 @@
     .xbox-text p {
         font-size: 18px;
     }
-    .top-form input{
+
+    .top-form input {
         font-size: 11px;
     }
+
     .top-form button {
         font-size: 12px;
         width: 60%;
@@ -171,6 +174,10 @@
 }
 
 @media (max-width:693px) {
+    .xbox {
+        margin-top: 200px;
+    }
+
     h1 {
         font-size: 35px;
         line-height: 50px;
@@ -179,11 +186,19 @@
     .c-btn {
         font-size: 14px;
     }
+
+    .xbox-text {
+        top: -30%;
+    }
 }
 
 @media (max-width:670px) {
     .card-product {
         width: 100%;
+    }
+
+    .xbox-text {
+        top: -50%;
     }
 }
 
@@ -191,9 +206,33 @@
     .nav-search {
         flex-direction: column;
     }
+
+    .xbox-text h2 {
+        font-size: 30px;
+    }
+
+    .xbox-text p {
+        font-size: 16px;
+    }
+
+    .xbox-b {
+        padding: 10px 30px;
+    }
 }
 
 @media (max-width:520px) {
+    .xbox-text {
+        top: -60%;
+    }
+
+    .xbox-text h2 {
+        font-size: 24px;
+    }
+
+    .xbox-text p {
+        font-size: 14px;
+    }
+
     .discounts {
         width: 50px;
         height: 50px;
@@ -219,7 +258,30 @@
     }
 }
 
+@media (max-width:480px) {
+    .xbox-text {
+        top: -70%;
+    }
+
+    .xbox-text h2 {
+        font-size: 20px;
+    }
+
+    .xbox-text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:456px) {
+    .xbox-text {
+        top: -24vh;
+    }
+}
+
 @media (max-width:420px) {
+    .xbox-text {
+        top: -27vh;
+    }
 
     .f-text p {
         font-size: 18px;
@@ -244,6 +306,13 @@
 }
 
 @media (max-width:380px) {
+    .apple {
+        margin-top: 100px;
+    }
+
+    .xbox-text {
+        top: -28vh;
+    }
 
     .f-text p {
         font-size: 16px;
@@ -251,5 +320,52 @@
 
     .f-text span {
         font-size: 14px;
+    }
+
+    .carousel-ind {
+        bottom: -50px;
+    }
+
+    .c-left {
+        max-width: 140px;
+    }
+
+    .c-block {
+        align-items: center;
+    }
+
+    h1 {
+        line-height: 18px;
+    }
+
+    .c-btn {
+        padding: 5px 16px
+    }
+
+    .c-right {
+        gap: 17px;
+    }
+
+    .top-form button {
+        font-size: 9px;
+        padding: .375rem .0075rem;
+    }
+
+    .f-text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:368px) {
+    .xbox-text {
+        top: -11vh;
+    }
+
+    .xbox-text h2 {
+        color: #313131;
+    }
+
+    .xbox-text p {
+        color: #313131;
     }
 }
