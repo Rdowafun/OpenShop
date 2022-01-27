@@ -198,7 +198,7 @@
     }
 
     .xbox-text {
-        top: -50%;
+        top: -30%;
     }
 }
 
@@ -221,9 +221,6 @@
 }
 
 @media (max-width:520px) {
-    .xbox-text {
-        top: -60%;
-    }
 
     .xbox-text h2 {
         font-size: 24px;
@@ -259,9 +256,6 @@
 }
 
 @media (max-width:480px) {
-    .xbox-text {
-        top: -70%;
-    }
 
     .xbox-text h2 {
         font-size: 20px;
@@ -273,15 +267,11 @@
 }
 
 @media (max-width:456px) {
-    .xbox-text {
-        top: -24vh;
-    }
+
 }
 
 @media (max-width:420px) {
-    .xbox-text {
-        top: -27vh;
-    }
+
 
     .f-text p {
         font-size: 18px;
@@ -311,7 +301,7 @@
     }
 
     .xbox-text {
-        top: -28vh;
+        top: -40%;
     }
 
     .f-text p {
@@ -358,14 +348,8 @@
 
 @media (max-width:368px) {
     .xbox-text {
-        top: -11vh;
+        top: -60%;
     }
 
-    .xbox-text h2 {
-        color: #313131;
-    }
 
-    .xbox-text p {
-        color: #313131;
-    }
 }

@@ -589,7 +589,7 @@ footer {
 
 .xbox::after {
     content: '';
-    height: 195px;
+    height: 39.01%;
     width: 100%;
     background-color: #E3E3E3;
     position: absolute;
